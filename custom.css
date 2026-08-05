@@ -49,7 +49,7 @@ button, input, select, textarea { font: inherit; }
 button { cursor: pointer; }
 ::selection { background: rgba(36,124,242,.2); color: var(--navy-950); }
 
-review-avatar {
+.review-avatar {
   width: 50px;
   height: 50px;
   flex: 0 0 50px;
