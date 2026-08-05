@@ -808,5 +808,43 @@ body.menu-open { overflow: hidden; }
   gap: 0.8rem;
 }
 
+/* Review profile image — keep this at the bottom of custom.css */
+.review-card .review-person .review-avatar {
+  width: 46px !important;
+  height: 46px !important;
+  min-width: 46px !important;
+  flex: 0 0 46px !important;
+
+  display: block !important;
+  position: relative !important;
+  overflow: hidden !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+
+  background: #eaf4ff;
+  border: 2px solid #ffffff;
+  box-shadow: 0 3px 10px rgba(11, 42, 97, 0.18);
+}
+
+.review-card .review-person .review-avatar img,
+.review-card .review-person .review-avatar .review-avatar-image {
+  position: absolute !important;
+  inset: 0 !important;
+
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 50% !important;
+}
+
 
 .
